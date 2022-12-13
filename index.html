@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple web page</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <center><h1>Project Name</h1></center>
+      </div>
+      <div id="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div id="image">
+        <img id="img" src="image.jpg" alt="image" />
+      </div>
+      <div id="marquee">
+        <marquee behavior="scroll" direction="right">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, quia?</marquee>
+      </div>
+      <div id="box">
+        <div id="box1" class="box">
+           <center><h3>box 1</h3></center> 
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex hic
+                magnam nobis quam, aliquam suscipit delectus ea totam dolores
+                doloremque?
+            </p>
+        </div>
+        <div id="box2" class="box">
+           <center><h3>box 2</h3></center>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex hic
+                magnam nobis quam, aliquam suscipit delectus ea totam dolores
+                doloremque?
+            </p>
+        </div>
+        <div id="box3" class="box">
+            <center><h3>box 3</h3></center>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex hic
+            magnam nobis quam, aliquam suscipit delectus ea totam dolores
+            doloremque?
+          </p>
+        </div>
+      </div>
+      <div id="About">
+        <center><h1>About</h1></center>
+        <div id="aboutcontainer"> 
+        <div id="about1" class="about">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vel!</p>
+        </div>
+        <div id="about2" class="about">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, vel!</p>
+        </div>
+        </div>
+      </div>
+      <div id="Contact">
+        <center><h1>Contact</h1></center>
+        <div id="contactcontainer">
+        <div id="contact1" class="contact">
+            <p><span>Phone no :</span> 9644068279</p><br>
+            <p><span>E-mail :</span> hrishabhtomar14@gmail.com</p>
+        </div>
+        <div id="contact2" class="contact">
+            <form action="backend.php" method="post">
+                <table align="center">
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td><input required type="text" placeholder="Enter username" id="username" name="username"></td>
+                    </tr>
+                    <tr>
+                        <td><label>E-mail</label></td>
+                        <td><input required type="email" placeholder="Enter E-mail" id="username" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Contact</label></td>
+                        <td><input required type="text" placeholder="Enter 10-digit Mobile No." id="Contact" name="Contact"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="submit">
+                            <input type="reset" value="reset">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </div>
+      </div>
+      <div id="footer">
+        &#169; Hrishabh. All right reserved 
+      </div>
+    </div>
+  </body>
+</html>
